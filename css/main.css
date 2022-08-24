@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Edu+VIC+WA+NT+Beginner&family=Montserrat:wght@100&family=Roboto+Mono:wght@200&display=swap');
+body {
+    font-family: 'Robot mono', sans-serif;
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+header {
+    background-color: #1b0088;
+}
+
+.carousel-inner {
+    max-height: 48rem;
+}
+
+footer {
+    background-color: #1b0088;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#destinos p {
+    text-align: justify;
+}
+
+#destinos h3 {
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .bloque-nosotros {
+        display: block !important;
+    }
+}
+
+@media (max-with:768px) {
+    #slogan,
+    #nosotros {
+        width: 90% !important;
+    }
+    .destinos-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #contacto {
+        top: -110px;
+    }
+    .bloque-nosotros {
+        display: block !important;
+    }
+}
+
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
