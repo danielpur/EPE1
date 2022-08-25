@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('#logo').fadeIn(2000);
+});
+
+$(document).ready(function() {
     $('#slogan').fadeIn(2000);
 });
 

@@ -5,12 +5,19 @@ body {
 }
 
 #logo {
+    display: none;
     width: 80px;
     height: 80px;
 }
 
 header {
     background-color: #1b0088;
+}
+
+#menu a:hover {
+    background-color: gray;
+    border-radius: 5%;
+    color: white;
 }
 
 .carousel-inner {
@@ -49,6 +56,11 @@ footer p {
     text-align: center;
 }
 
+#destinos img:hover {
+    width: 200px;
+    height: 180px;
+}
+
 #centrodeayuda {
     display: none;
 }
@@ -66,36 +78,14 @@ footer p {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-    .bloque-nosotros {
-        display: block !important;
-    }
 }
 
 @media (max-with:768px) {
-    #slogan,
-    #nosotros {
+    #slogan {
         width: 90% !important;
     }
     .destinos-fila {
         width: 100% !important;
         text-align: center;
-    }
-    #contacto {
-        top: -110px;
-    }
-    .bloque-nosotros {
-        display: block !important;
-    }
-}
-
-@media (max-width:1200px) {
-    #local {
-        flex-wrap: wrap;
-        padding-top: 30px;
-    }
-    .wrapper {
-        width: 90%;
-        margin: auto;
-        padding-top: 50px;
     }
 }
