@@ -27,6 +27,20 @@ footer p {
     text-align: center;
 }
 
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+#slogan {
+    display: none;
+}
+
+#destinos {
+    display: none;
+}
+
 #destinos p {
     text-align: justify;
 }
@@ -35,10 +49,16 @@ footer p {
     text-align: center;
 }
 
-#iconos i {
-    font-size: 26px;
-    padding: 0 8px;
-    color: #f3f3f3;
+#centrodeayuda {
+    display: none;
+}
+
+#centrodeayuda p {
+    text-align: justify;
+}
+
+#img-contacto {
+    display: none;
 }
 
 @media (max-width: 576px) {
