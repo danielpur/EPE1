@@ -14,10 +14,14 @@ header {
     background-color: #1b0088;
 }
 
+.nav {
+    background-color: #ffffff;
+}
+
 #menu a:hover {
     background-color: gray;
     border-radius: 5%;
-    color: white;
+    color: #ffffff;
 }
 
 .carousel-inner {
@@ -25,19 +29,20 @@ header {
 }
 
 footer {
+    display: none;
     background-color: #1b0088;
     min-height: 100px;
 }
 
 footer p {
-    color: #f3f3f3;
+    color: #ffffff;
     text-align: center;
 }
 
 #iconos i {
     font-size: 26px;
     padding: 0 8px;
-    color: #f3f3f3;
+    color: #ffffff;
 }
 
 #slogan {
